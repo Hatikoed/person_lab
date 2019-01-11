@@ -4,7 +4,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class PersonTest {
-
     @Test
     public void input() {
         Person person = new Person();
@@ -14,10 +13,10 @@ public class PersonTest {
     }
 
     @Test
-    public void output() {
+    public void register() {
         Person person = new Person();
         boolean actual = true;
-        boolean expected = person.output();
+        boolean expected = person.register();
         Assert.assertEquals(actual,expected);
     }
 

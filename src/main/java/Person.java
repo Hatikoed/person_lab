@@ -2,7 +2,7 @@ public class Person {
     public boolean input(){
         return false;
     }
-    public boolean output(){
+    public boolean register(){
         return false;
     }
     public boolean delete(){
